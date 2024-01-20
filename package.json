@@ -1,0 +1,23 @@
+{
+  "name": "tailwindcss",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tailwindcss-cli@latest build css/tailwind.css -o public/css/style.css"
+  },
+  "keywords": [],
+  "author": "pepe <snatera.ve@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "live-server": "^1.2.2",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "cssnano": "^6.0.3",
+    "postcss": "^8.4.33"
+  }
+}

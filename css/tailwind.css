@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.rotate-45{
+    transform: rotate(45deg);
+}
+@variants hover{
+    .zoom{
+        transform: scale(2);
+    }
+}
+
+.form-control{
+    @apply tw-w-full tw-py-1 tw-px-4 tw-rounded tw-border tw-border-blue-300 tw-bg-gray-300 tw-text-gray-800 tw-placeholder-secondary tw-leading-snug;
+}
+
+.form-control:hover{
+    @apply tw-bg-white;
+}
+
+.btn{
+    @apply tw-block tw-px-4 tw-py-2 tw-rounded tw-shadow-xl tw-bg-gray-500;
+}
+
+.btn-primary{
+    @apply tw-bg-yellow-400;
+}
+
+.btn:hover{
+    @apply tw-shadow-none tw-bg-gray-700 tw-text-white;
+}
+
